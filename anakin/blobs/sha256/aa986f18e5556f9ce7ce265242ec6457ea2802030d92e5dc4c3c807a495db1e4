@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "config": {
+    "mediaType": "application/vnd.oci.image.config.v1+json",
+    "size": 217,
+    "digest": "sha256:d7a38a28d7b1cf81b95ee50a4d011871378018ae5ee366acc5505273fee5a0b3"
+  },
+  "layers": [
+    {
+      "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+      "size": 80411,
+      "digest": "sha256:57b8eee16897b0bb1d00190e99fb722dbaa32ecd1eb70686012ecf814ce329ba"
+    }
+  ],
+  "annotations": {
+    "org.opencontainers.image.ref": "1.0.0"
+  }
+}

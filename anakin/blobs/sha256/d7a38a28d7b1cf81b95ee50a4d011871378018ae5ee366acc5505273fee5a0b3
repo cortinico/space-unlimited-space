@@ -1,0 +1,10 @@
+{
+    "architecture": "amd64",
+    "os": "darwin",
+    "rootfs": {
+      "diff_ids": [
+        "sha256:dd9a3a1647c621216d0269b28ed70b69ebfc8ab9cf650ffb863e2898c3ece683"
+      ],
+      "type": "layers"
+    }
+}

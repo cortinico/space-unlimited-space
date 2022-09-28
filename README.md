@@ -98,22 +98,12 @@ Specifically:
 
 ## Consuming via HTTP
 
-You can download a public manifest from Github Container Registry with:
-
-```
-curl -L --verbose \
-   --header "Accept: application/vnd.oci.image.index.v1+json" \
-   --header "Authorization: Bearer QQ==" \
-   https://ghcr.io/v2/cortinico/space-unlimited-space/anakin/manifests/1.0.0 \
-   -o manifest.json
-```
-
-To download a public tarball instead:
+You can download a public tarball (a layer) from Github Container Registry with:
 
 ```
 curl -L --verbose \
    --header "Authorization: Bearer QQ==" \
-   https://ghcr.io/v2/cortinico/space-unlimited-space/blobs/sha256:57b8eee16897b0bb1d00190e99fb722dbaa32ecd1eb70686012ecf814ce329ba \
+   https://ghcr.io/v2/cortinico/space-unlimited-space/anakin/blobs/sha256:57b8eee16897b0bb1d00190e99fb722dbaa32ecd1eb70686012ecf814ce329ba \
     -o output.tar.gz
 ```
 
